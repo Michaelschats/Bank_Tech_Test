@@ -1,5 +1,7 @@
-require_relative "./transactions.rb"
-require_relative "./statement.rb"
+# frozen_string_literal: true
+
+require_relative './transactions.rb'
+require_relative './statement.rb'
 
 class Account
   attr_reader :balance, :transactions

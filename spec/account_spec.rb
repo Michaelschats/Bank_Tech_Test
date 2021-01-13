@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 require 'account'
 
 describe Account do
   let(:account) { Account.new }
-  let(:transaction) { Transaction.new(100, 0, 100, "13/01/2021") }
+  let(:transaction) { Transaction.new(100, 0, 100, '13/01/2021') }
   let(:statement_class) { double(:statement_class, new: statement) }
 
   context 'when depositing money' do

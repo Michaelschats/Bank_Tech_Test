@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './transactions'
 
 class Statement
@@ -7,15 +9,15 @@ class Statement
     print_transactions
   end
 
-private
+  private
 
   def columns
-    print "date || credit || debit || balance"
+    print 'date || credit || debit || balance'
   end
 
   def print_transactions
     @transactions.each do |t|
-    print "#{t.date} || #{format(t.credit)} || #{format(t.debit)} || #{format(t.balance)}\n"
+      print "#{t.date} || #{format(t.credit)} || #{format(t.debit)} || #{format(t.balance)}\n"
     end
   end
 
