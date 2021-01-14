@@ -45,7 +45,7 @@ I want to see the date I credited or debited my account and show the balance
 ```
 
 ### Class Diagrams
-![Class Diagrams](/images/Diagram.png)
+![Class Diagrams](/images/Diagrams.png)
 
 ### Issues with Test
 #### Failing RSpec test, unsure how to fix
