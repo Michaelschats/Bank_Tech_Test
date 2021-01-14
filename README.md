@@ -48,9 +48,12 @@ I want to see the date I credited or debited my account and show the balance
 ![Class Diagrams](/images/Diagram.png)
 
 ### Issues with Test
-####Failing RSpec test, unsure how to fix
+#### Failing RSpec test, unsure how to fix
 ![Error Messages](/images/Error_Messages1.png)
 ![Error Messages](/images/Error_Messages2.png)
+
+#### IRB Showcase:
+![IRB](/images/IRB.png)
 
 ### Self-assessment
 Once you have completed the challenge and feel happy with your solution, here's a form to help you reflect on the quality of your code: https://docs.google.com/forms/d/1Q-NnqVObbGLDHxlvbUfeAC7yBCf3eCjTmz6GOqC9Aeo/edit
